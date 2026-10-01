@@ -1,0 +1,77 @@
+body{
+    background-repeat: no-repeat; /*Não repete a imagem*/
+    background-position: center; /* Posiciona a imagem no centro */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    margin: 0; /*Remove a margem padrão do navegador*/
+	font-size: 20px;
+}
+
+header{
+    background-repeat: no-repeat; /*Não repete a imagem*/
+    background-position: center; /* Posiciona a imagem no centro */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+	padding: 20px 0; /*20px cima e baixo e 0 dir e esquerda*/
+}
+
+.caixa{
+	position: relative;
+	width: 500;
+	margin: 0 300px;
+	background-color: black;
+}
+
+.letra{
+    font-size: 30px;
+}
+
+a{
+	text-decoration: none; 
+	color: #000000; 
+}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+.produtos {
+	display: flex;
+	width: 940px;
+	margin: 5px 3px;
+	padding: 50px 0px;
+}
+
+
+.produtos-img{
+	border-radius: 20;
+	width: 70%;
+    height: 40%;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px 0 0;/*10px cima, 0 baixo, 0 lados	*/
+	/*margin-top: 10px; */
+}
+
+.produtos-img {
+	border-radius: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("imagens/bg.jpg");
+	padding: 40px 0; /*40px cima e baixo e 0 lados*/
+}
+
+.copyright{
+	color: #FFFFFF; /*branca*/
+	font-size: 13px;
+	margin: 20px 0 0; /*20px superior, 0 para o restante*/
+}
